@@ -1,0 +1,16 @@
+Folder Database:
+- config
+npx sequelize-cli db:create
+- migration => npx sequelize migration:generate --name (yournamehere)
+- models
+- seeders => bulkinsert
+- connection.js
+
+Modules:
+-fetching setup
+
+Pages
+folder api to create api
+consume where needed(index.js)
+
+backend(database, modules, pages(api))
